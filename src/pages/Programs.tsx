@@ -4,6 +4,7 @@ import { Layout } from '@/components/Layout';
 import { Hero } from '@/components/Hero';
 import { SectionHeading } from '@/components/SectionHeading';
 import { Book, Headphones, Users, File, Link } from 'lucide-react';
+import device from "/device.jpeg";
 
 const Programs = () => {
   const programs = [
@@ -17,7 +18,7 @@ const Programs = () => {
         "Supply of hearing aids and communication apps for deaf students",
         "Training on how to use assistive technologies effectively"
       ],
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+      image: device
     },
     {
       icon: <Book className="h-12 w-12" />,
