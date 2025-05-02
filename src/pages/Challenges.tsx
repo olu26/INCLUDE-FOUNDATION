@@ -44,7 +44,7 @@ const Challenges = () => {
       "description": "In this challenge, we went on a ‘Hunt for Treasure’ — not gold or gems, but powerful stories. Our journey led us to the Cape Coast School for the DeafBlind, where we had the honor of interviewing the school’s leader. Through this conversation, we uncovered deep insights into the realities, hopes, and resilience of an often-overlooked community.",
       impact: "Leaders in specialized education play a vital role in shaping inclusive futures, yet their voices are rarely amplified. By sharing their perspectives, we bring visibility to the systemic challenges and remarkable triumphs happening at the intersection of disability and education in Ghana.",
       solution: "We documented the interview to spotlight the school’s achievements, highlight areas of need, and inspire others to support inclusive education. The challenge reminded us that true treasure lies in lived experiences — and the knowledge that can only come from those at the heart of the mission.",
-      image: "https://images.unsplash.com/photo-1531266752451-78c925f9d2ce",
+      image: "https://images.unsplash.com/photo-1612257998531-70e0d0a15f6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJlYXN1cmUlMjBodW50fGVufDB8fDB8fHww",
       video: "https://youtu.be/nDup_BXv1ws?si=TkmuLwkJZnJudO9O"
     }
     ,
