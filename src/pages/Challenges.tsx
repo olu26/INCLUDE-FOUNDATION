@@ -148,12 +148,7 @@ const Challenges = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
-            <a 
-              href="/contact" 
-              className="bg-include-blue hover:bg-include-dark text-white px-6 py-3 rounded-md font-medium transition-colors"
-            >
-              Get Involved
-            </a>
+            
             <a 
               href="/programs" 
               className="bg-white border border-include-blue text-include-blue px-6 py-3 rounded-md font-medium hover:bg-include-light transition-colors"

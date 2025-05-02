@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -10,20 +9,14 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 
-  // Handle scroll effect for navbar
+  // Handle scroll effect for navbar padding
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 10);
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   // Close mobile menu when route changes
@@ -42,8 +35,8 @@ export function Navbar() {
   return (
     <header 
       className={cn(
-        "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"
+        "fixed top-0 w-full z-50 transition-all duration-300 bg-white shadow-md",
+        scrolled ? "py-2" : "py-4"
       )}
     >
       <div className="container px-4 mx-auto flex justify-between items-center">

@@ -21,7 +21,7 @@ const About = () => {
       name: "Lisette Muskiza",
       role: "policy & Advocacy director",
       image: lisete,
-      bio: "Michael leads our technology initiatives, including the development of LearnPod and other assistive technologies.",
+      bio: "Lisette is a passionate advocate for inclusive education, dedicated to improving access to learning resources for the blind and deaf communities across Africa. With a background in special education and technology integration, she aims to bridge the gap between traditional teaching methods and innovative approaches that cater to all learners",
     },
     {
       name: "Nadia Odame",
@@ -33,7 +33,7 @@ const About = () => {
       name: "Arjuna Caleb",
       role: "Technology Director",
       image: caleb,
-      bio: "Amina is a passionate advocate for inclusive education, dedicated to improving access to learning resources for the blind and deaf communities across Africa. With a background in special education and technology integration, he aims to bridge the gap between traditional teaching methods and innovative approaches that cater to all learners",
+      bio: "Technology Director Caleb leads our technology initiatives, including the development of LearnPod and other assistive technologies. He is dedicated to creating innovative solutions that enhance the learning experience for deaf and blind students, ensuring they have access to the same educational resources as their peers.",
     },
   ];
 

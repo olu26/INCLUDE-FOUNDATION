@@ -35,7 +35,7 @@ export function Hero({ title, subtitle, imageUrl }: HeroProps) {
             <Button asChild size="lg" className="bg-include-yellow hover:bg-yellow-400 text-gray-900 font-medium text-lg">
               <Link to="/about">Learn More</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 font-medium text-lg">
+            <Button asChild size="lg" variant="outline" className="border-white text-white bg-white/10 font-medium text-lg">
               <Link to="/contact">Get Involved</Link>
             </Button>
           </div>

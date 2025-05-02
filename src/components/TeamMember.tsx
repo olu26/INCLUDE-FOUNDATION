@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -13,11 +12,11 @@ interface TeamMemberProps {
 export function TeamMember({ name, role, image, bio, className }: TeamMemberProps) {
   return (
     <div className={cn('group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow', className)}>
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative w-full overflow-hidden">
         <img 
           src={image} 
           alt={`Portrait of ${name}`} 
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
         />
       </div>
       <div className="p-6">
