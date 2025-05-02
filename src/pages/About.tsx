@@ -75,10 +75,23 @@ const About = () => {
                 className="mb-6"
               />
               <p className="text-lg mb-6">
-                We envision a world where deaf and blind individuals have equal access to education and employment opportunities, allowing them to fully participate in society and reach their full potential.
+              We are a team of student innovators from ALCHE united by a shared mission — to break down the barriers faced disabled individuals specifically the  deaf and blind across Africa.
               </p>
               <p className="text-lg mb-6">
-                Our goal is to create sustainable, scalable solutions that can be implemented across Sub-Saharan Africa and beyond, breaking down barriers to inclusion.
+              Our project, INCLUDE, was born from a simple yet urgent question:
+              What would it take to make education and opportunity truly accessible for everyone
+              </p>
+              <p className="text-lg mb-6">
+              
+Through research, interviews, and design, we discovered that most deaf and blind people face daily exclusion, not just from school or work, but from society itself.
+We couldn’t ignore that. So we decided to act.
+              </p>
+              <p className="text-lg mb-6">
+              
+<p className="text-lg mb-6">
+              
+<h2>INCLUDE is our response</h2>.
+              </p>
               </p>
             </div>
           </div>

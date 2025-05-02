@@ -3,6 +3,7 @@ import React from 'react';
 import { Layout } from '@/components/Layout';
 import { Hero } from '@/components/Hero';
 import { SectionHeading } from '@/components/SectionHeading';
+import pod from '/pod.jpeg';
 
 const Challenges = () => {
   const challenges = [
@@ -24,7 +25,7 @@ const Challenges = () => {
 
       solution: "Through research, interviews, and creative presentation, we documented the origins, values, and evolution of the Dipo rite. Our aim was to celebrate African heritage by fostering understanding and respect for traditional practices while creating content that educates and preserves these stories for the future.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+      video: "https://youtu.be/AWnmRJBp9gY?si=ax_kheoaOezOXFAP"
 
     },
     {
@@ -34,7 +35,7 @@ const Challenges = () => {
       impact: "Communities thrive when members feel seen, heard, and supported. Without intentional effort, however, gaps in communication, accessibility, or accountability can lead to disconnection or stagnation. Our Help Lab challenge aimed to reverse that trend through proactive listening and collaborative problem-solving.",
       solution: "We engaged with peers to identify pain points, then designed practical, empathetic interventions — ranging from improved onboarding experiences to mental health check-ins, skill-sharing sessions, and more. The Help Lab isn’t just a project; it’s a mindset shift toward everyday inclusion and collective growth.",
       image: "https://images.unsplash.com/photo-1520975922323-195c0f50dca5",
-      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+      video: "https://youtu.be/rOorv0lkySk?si=GiApItMWCwzFaPXV"
     }
     ,
     {
@@ -44,7 +45,7 @@ const Challenges = () => {
       impact: "Leaders in specialized education play a vital role in shaping inclusive futures, yet their voices are rarely amplified. By sharing their perspectives, we bring visibility to the systemic challenges and remarkable triumphs happening at the intersection of disability and education in Ghana.",
       solution: "We documented the interview to spotlight the school’s achievements, highlight areas of need, and inspire others to support inclusive education. The challenge reminded us that true treasure lies in lived experiences — and the knowledge that can only come from those at the heart of the mission.",
       image: "https://images.unsplash.com/photo-1531266752451-78c925f9d2ce",
-      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+      video: "https://youtu.be/nDup_BXv1ws?si=TkmuLwkJZnJudO9O"
     }
     ,
     {
@@ -53,8 +54,8 @@ const Challenges = () => {
       description: "This week marked a turning point: after weeks of research, collaboration, and testing, we officially launched our solution. Centered on the challenges faced by deaf and blind students, our solution integrates the LearnPod device with a suite of assistive technologies designed to enhance learning, communication, and inclusion.",
       impact: "The launch isn't just about shipping a product — it's about creating access. For the first time, students in our pilot schools are experiencing learning environments that are built with their needs in mind. This step forward promises long-term educational and social impact.",
       solution: "Our final product includes the LearnPod — a user-friendly, portable learning device — alongside a curated toolkit of accessible software and hardware: from braille displays to speech-to-text apps. The solution was co-created with users, tested in real environments, and refined based on feedback. Our launch is a declaration: inclusive education is not optional, it's essential.",
-      image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
-      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+      image: pod,
+      video: "https://youtu.be/FmNQ_k_Q_vg?si=qhkD92nX4rlweVBl"
     }
     
   ];
