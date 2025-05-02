@@ -30,7 +30,7 @@ const Programs = () => {
         "Classroom modifications to improve accessibility",
         "Ongoing support and mentorship for teachers working with disabled students"
       ],
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+      image: "https://www.istockphoto.com/photo/young-student-woman-giving-lecture-to-students-at-the-university-gm1453378098-489374716?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2FSchool-Partnerships&utm_medium=affiliate&utm_source=unsplash&utm_term=School+Partnerships%3A%3A%3A"
     },
     {
       icon: <Users className="h-12 w-12" />,
@@ -42,7 +42,7 @@ const Programs = () => {
         "Resources and guides for home-based learning",
         "Counseling services for families"
       ],
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+      image: "https://images.unsplash.com/photo-1557734864-c78b6dfef1b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RmFtaWx5JTIwU3VwcG9ydCUyMFdvcmtzaG9wc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       icon: <Link className="h-12 w-12" />,
@@ -54,7 +54,7 @@ const Programs = () => {
         "Career guidance and counseling",
         "Internship and job placement assistance"
       ],
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+      image: "https://images.unsplash.com/vector-1743877567367-9be053975607?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lbnRvcnNoaXAlMjAlMjYlMjBsZWFkZXJzaGlwJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D"
     },
     {
       icon: <File className="h-12 w-12" />,
@@ -66,7 +66,7 @@ const Programs = () => {
         "Collaboration with international organizations on disability rights",
         "Advocacy campaigns to raise awareness about the needs of deaf and blind individuals"
       ],
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+      image: "https://plus.unsplash.com/premium_photo-1661333820879-517c5e808bfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9saWN5JTIwYWR2b2NhY3l8ZW58MHx8MHx8fDA%3D"
     }
   ];
 
