@@ -7,53 +7,56 @@ import { SectionHeading } from '@/components/SectionHeading';
 const Challenges = () => {
   const challenges = [
     {
-      id: 1,
-      title: "Limited Access to Assistive Technology",
-      description: "Many deaf and blind individuals, especially those in rural and low-income areas, lack access to essential assistive technologies that could help them learn and communicate effectively.",
-      impact: "Without assistive technology, deaf and blind students struggle to access educational content, resulting in lower academic achievement and fewer opportunities for future employment.",
-      solution: "The INCLUDE Foundation is addressing this challenge through our LearnPod device and by distributing other affordable or free assistive tools such as screen readers, braille displays, hearing aids, and communication apps.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-    },
+      "id": 1,
+      title: "WEEK ONE CHALLENGE",
+      description: "This week, our challenge was to create a powerful elevator pitch — a short, compelling video introduction from each team member that highlights who we are and why our work matters. We focused on the urgent issue faced by deaf and blind individuals, particularly in rural and underserved communities, who lack access to essential assistive technologies for learning and communication.",
+      impact: "Millions of deaf and blind students face significant barriers in accessing education due to the absence of tools like screen readers, braille devices, and hearing aids. This exclusion leads to lower literacy levels, limited opportunities, and reduced independence — perpetuating cycles of poverty and inequality.",
+      solution: "In our elevator pitch video compilation, each team member shares our collective vision through the lens of our solution: the LearnPod device. We also spotlight other tools provided by the INCLUDE Foundation, including free or low-cost screen readers, braille displays, hearing aids, and accessible communication apps — all aimed at empowering every learner, regardless of ability.",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+    }
+    ,
     {
       id: 2,
-      title: "Inadequate Teacher Training",
-      description: "Most teachers in mainstream schools lack the specialized training needed to effectively teach students with visual or hearing impairments.",
-      impact: "Even when deaf and blind students attend school, they often receive inadequate instruction because teachers don't know how to adapt their teaching methods to meet these students' needs.",
-      solution: "We partner with schools to provide comprehensive training programs for teachers, equipping them with the skills and knowledge to create inclusive learning environments for deaf and blind students.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+      title: "WEEK TWO CHALLENGE",
+      description:  "This week's challenge focused on cultural exploration and storytelling. Our team delved into the traditional rite of passage known as Dipo — a revered initiation ceremony practiced among the Krobo people of Ghana. We set out to uncover not just the amazing facts about Dipo, but also to challenge common misconceptions and present a more informed, respectful narrative.",
+      impact: "Cultural practices like Dipo are often misunderstood or misrepresented, especially outside their native context. These misperceptions can lead to stigma, cultural erosion, or loss of heritage — particularly among younger generations and diaspora communities.",
+
+      solution: "Through research, interviews, and creative presentation, we documented the origins, values, and evolution of the Dipo rite. Our aim was to celebrate African heritage by fostering understanding and respect for traditional practices while creating content that educates and preserves these stories for the future.",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+
     },
     {
       id: 3,
-      title: "Inaccessible Learning Materials",
-      description: "Educational materials such as textbooks, worksheets, and digital resources are rarely available in formats accessible to deaf and blind students.",
-      impact: "Without accessible materials, deaf and blind students cannot fully participate in classroom activities or complete assignments, hindering their learning progress.",
-      solution: "We develop and distribute accessible learning materials, including braille textbooks, sign language videos, and audio content, ensuring that educational resources are available to all students.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
-    },
+      title: "WEEK THREE CHALLENGE",
+      description: "For this week’s challenge, our focus shifted to community impact. The task: launch a 'Help Lab' — a dedicated initiative to foster positive engagement and improve the quality of our shared spaces, both online and offline. Our team brainstormed and implemented solutions to real concerns raised within our community.",
+      impact: "Communities thrive when members feel seen, heard, and supported. Without intentional effort, however, gaps in communication, accessibility, or accountability can lead to disconnection or stagnation. Our Help Lab challenge aimed to reverse that trend through proactive listening and collaborative problem-solving.",
+      solution: "We engaged with peers to identify pain points, then designed practical, empathetic interventions — ranging from improved onboarding experiences to mental health check-ins, skill-sharing sessions, and more. The Help Lab isn’t just a project; it’s a mindset shift toward everyday inclusion and collective growth.",
+      image: "https://images.unsplash.com/photo-1520975922323-195c0f50dca5",
+      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+    }
+    ,
     {
       id: 4,
-      title: "Limited Family Support",
-      description: "Many families of deaf and blind children lack the knowledge and resources to support their children's education and communication development.",
-      impact: "Without proper support at home, deaf and blind children struggle to reinforce what they learn at school and develop essential life skills.",
-      solution: "We offer workshops, training programs, and support groups for families, providing them with the tools and strategies they need to support their deaf or blind children effectively.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-    },
+      title: "WEEK FOUR CHALLENGE",
+      "description": "In this challenge, we went on a ‘Hunt for Treasure’ — not gold or gems, but powerful stories. Our journey led us to the Cape Coast School for the DeafBlind, where we had the honor of interviewing the school’s leader. Through this conversation, we uncovered deep insights into the realities, hopes, and resilience of an often-overlooked community.",
+      impact: "Leaders in specialized education play a vital role in shaping inclusive futures, yet their voices are rarely amplified. By sharing their perspectives, we bring visibility to the systemic challenges and remarkable triumphs happening at the intersection of disability and education in Ghana.",
+      solution: "We documented the interview to spotlight the school’s achievements, highlight areas of need, and inspire others to support inclusive education. The challenge reminded us that true treasure lies in lived experiences — and the knowledge that can only come from those at the heart of the mission.",
+      image: "https://images.unsplash.com/photo-1531266752451-78c925f9d2ce",
+      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
+    }
+    ,
     {
       id: 5,
-      title: "Social Stigma and Discrimination",
-      description: "Deaf and blind individuals often face stigma and discrimination in their communities, leading to social isolation and reduced opportunities.",
-      impact: "Social stigma can result in exclusion from educational and employment opportunities, as well as psychological harm and diminished self-esteem.",
-      solution: "We conduct awareness campaigns and community outreach programs to reduce stigma and promote understanding and acceptance of deaf and blind individuals in society.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
-    },
-    {
-      id: 6,
-      title: "Inadequate Policy Framework",
-      description: "Many countries lack comprehensive policies to protect the rights of individuals with disabilities and ensure their access to quality education and employment.",
-      impact: "Without strong policy frameworks, systemic barriers to inclusion persist, making it difficult to implement lasting changes in education and employment systems.",
-      solution: "We advocate for policy changes at local, national, and regional levels, working with government agencies and international organizations to promote disability rights and inclusive education laws.",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+      title: "WEEK FIVE CHALLENGE",
+      description: "This week marked a turning point: after weeks of research, collaboration, and testing, we officially launched our solution. Centered on the challenges faced by deaf and blind students, our solution integrates the LearnPod device with a suite of assistive technologies designed to enhance learning, communication, and inclusion.",
+      impact: "The launch isn't just about shipping a product — it's about creating access. For the first time, students in our pilot schools are experiencing learning environments that are built with their needs in mind. This step forward promises long-term educational and social impact.",
+      solution: "Our final product includes the LearnPod — a user-friendly, portable learning device — alongside a curated toolkit of accessible software and hardware: from braille displays to speech-to-text apps. The solution was co-created with users, tested in real environments, and refined based on feedback. Our launch is a declaration: inclusive education is not optional, it's essential.",
+      image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+      video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
     }
+    
   ];
 
   return (
@@ -104,7 +107,16 @@ const Challenges = () => {
                     <p className="text-gray-700 mb-6">
                       {challenge.solution}
                     </p>
-                    
+                    {challenge.video && (
+                      <a
+                        href={challenge.video}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-include-blue hover:bg-include-dark text-white px-4 py-2 rounded-md font-medium transition-colors"
+                      >
+                        Watch Video
+                      </a>
+                    )}
                     {/* Real image instead of placeholder */}
                     <div className="mt-2">
                       <div className="aspect-[4/3] rounded-lg overflow-hidden">
