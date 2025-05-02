@@ -7,6 +7,7 @@ import pod from "/pod.jpeg";
 import peace from "/peace.jpeg";
 import caleb from "/caleb.jpeg";
 import amina from "/nadia.jpeg";
+import lisete from "/lisette.jpeg"
 
 const About = () => {
   const teamMembers = [
@@ -14,25 +15,25 @@ const About = () => {
       name: "Peace Chukwuka",
       role: "Founder & Executive Director",
       image: peace,
-      bio: "With over 15 years of experience in special education, Dr. Johnson founded INCLUDE Foundation after working with deaf and blind students across Africa.",
+      bio: "Peace Chukwuka is an innovative thinker with a strong background in digital accessibility. She is passionate about utilizing technology to create educational tools that are not only effective but also inclusive for all students, ensuring that learning opportunities are accessible to everyone, regardless of their abilities.",
     },
     {
       name: "Lisette Muskiza",
       role: "policy & Advocacy director",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+      image: lisete,
       bio: "Michael leads our technology initiatives, including the development of LearnPod and other assistive technologies.",
     },
     {
       name: "Nadia Odame",
       role: "Education Programs Lead",
       image: amina,
-      bio: "Amina coordinates our educational partnerships and teacher training programs across multiple regions.",
+      bio: "Nadia Akua Nsiah Odame brings a wealth of experience in community engagement and outreach programs. Her commitment to fostering inclusive environments is evident in her work, which focuses on empowering the blind and deaf communities through tailored educational initiatives and technology-driven solutions.",
     },
     {
       name: "Arjuna Caleb",
       role: "Technology Director",
       image: caleb,
-      bio: "David works with government agencies and international organizations to promote inclusive education policies.",
+      bio: "Amina is a passionate advocate for inclusive education, dedicated to improving access to learning resources for the blind and deaf communities across Africa. With a background in special education and technology integration, he aims to bridge the gap between traditional teaching methods and innovative approaches that cater to all learners",
     },
   ];
 
