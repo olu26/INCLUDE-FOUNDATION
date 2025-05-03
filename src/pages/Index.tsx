@@ -8,6 +8,9 @@ import { ChallengeCard } from '@/components/ChallengeCard';
 import { ProgramCard } from '@/components/ProgramCard';
 import { Link } from 'react-router-dom';
 import { Book, File, Headphones, Users } from 'lucide-react';
+import pod1 from '/prototype.jpeg';
+import mission from "/mission.jpeg"
+
 
 const Index = () => {
   return (
@@ -36,7 +39,7 @@ const Index = () => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
+                src = {mission} 
                 alt="Student using assistive technology to access education" 
                 className="w-full h-auto"
               />
@@ -74,8 +77,8 @@ const Index = () => {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <SectionHeading 
-            title="E-LAB Challenges" 
-            subtitle="Explore the six major challenges we're addressing to improve access to education and employment for the deaf and blind."
+            title="Explore the five major challenges we're addressing to improve access to education and employment for the deaf and blind." 
+            // subtitle="Explore the five major challenges we're addressing to improve access to education and employment for the deaf and blind."
             center
           />
           
@@ -178,7 +181,7 @@ const Index = () => {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                src= {pod1}
                 alt="LearnPod device being used by a student" 
                 className="w-full h-auto rounded"
               />

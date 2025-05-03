@@ -19,7 +19,7 @@ const About = () => {
     },
     {
       name: "Lisette Muskiza",
-      role: "policy & Advocacy director",
+      role: "Policy & Advocacy director",
       image: lisete,
       bio: "Lisette is a passionate advocate for inclusive education, dedicated to improving access to learning resources for the blind and deaf communities across Africa. With a background in special education and technology integration, she aims to bridge the gap between traditional teaching methods and innovative approaches that cater to all learners",
     },

@@ -4,7 +4,8 @@ import { Layout } from '@/components/Layout';
 import { Hero } from '@/components/Hero';
 import { SectionHeading } from '@/components/SectionHeading';
 import pod from '/pod.jpeg';
-
+import week4 from '/week4.jpeg';
+import week3 from '/week3.jpeg';
 const Challenges = () => {
   const challenges = [
     {
@@ -34,7 +35,7 @@ const Challenges = () => {
       description: "For this week’s challenge, our focus shifted to community impact. The task: launch a 'Help Lab' — a dedicated initiative to foster positive engagement and improve the quality of our shared spaces, both online and offline. Our team brainstormed and implemented solutions to real concerns raised within our community.",
       impact: "Communities thrive when members feel seen, heard, and supported. Without intentional effort, however, gaps in communication, accessibility, or accountability can lead to disconnection or stagnation. Our Help Lab challenge aimed to reverse that trend through proactive listening and collaborative problem-solving.",
       solution: "We engaged with peers to identify pain points, then designed practical, empathetic interventions — ranging from improved onboarding experiences to mental health check-ins, skill-sharing sessions, and more. The Help Lab isn’t just a project; it’s a mindset shift toward everyday inclusion and collective growth.",
-      image: "https://images.unsplash.com/photo-1520975922323-195c0f50dca5",
+      image: week3,
       video: "https://youtu.be/rOorv0lkySk?si=GiApItMWCwzFaPXV"
     }
     ,
@@ -44,7 +45,7 @@ const Challenges = () => {
       "description": "In this challenge, we went on a ‘Hunt for Treasure’ — not gold or gems, but powerful stories. Our journey led us to the Cape Coast School for the DeafBlind, where we had the honor of interviewing the school’s leader. Through this conversation, we uncovered deep insights into the realities, hopes, and resilience of an often-overlooked community.",
       impact: "Leaders in specialized education play a vital role in shaping inclusive futures, yet their voices are rarely amplified. By sharing their perspectives, we bring visibility to the systemic challenges and remarkable triumphs happening at the intersection of disability and education in Ghana.",
       solution: "We documented the interview to spotlight the school’s achievements, highlight areas of need, and inspire others to support inclusive education. The challenge reminded us that true treasure lies in lived experiences — and the knowledge that can only come from those at the heart of the mission.",
-      image: "https://images.unsplash.com/photo-1612257998531-70e0d0a15f6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJlYXN1cmUlMjBodW50fGVufDB8fDB8fHww",
+      image: week4,
       video: "https://youtu.be/nDup_BXv1ws?si=TkmuLwkJZnJudO9O"
     }
     ,
@@ -71,8 +72,8 @@ const Challenges = () => {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <SectionHeading
-            title="The Six Major Challenges"
-            subtitle="At the INCLUDE Foundation, we've identified six critical challenges that prevent deaf and blind individuals from accessing quality education and employment opportunities."
+            title="The Five Major Challenges"
+            subtitle="At the INCLUDE Foundation, we've identified five critical challenges that prevent deaf and blind individuals from accessing quality education and employment opportunities."
             center
           />
           
