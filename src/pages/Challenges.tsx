@@ -33,8 +33,8 @@ const Challenges = () => {
     {
       id: 3,
       title: "WEEK THREE ",
-      description: "For this week’s challenge, our focus shifted to community impact. The task: launch a 'Help Lab' — a dedicated initiative to foster positive engagement and improve the quality of our shared spaces, both online and offline. Our team brainstormed and implemented solutions to real concerns raised within our community.",
-      impact: "Communities thrive when members feel seen, heard, and supported. Without intentional effort, however, gaps in communication, accessibility, or accountability can lead to disconnection or stagnation. Our Help Lab challenge aimed to reverse that trend through proactive listening and collaborative problem-solving.",
+      description: "For this week’s challenge, our focus shifted to community impact. The task: launch a 'Help Lab' — a dedicated initiative to foster positive engagement and improve the quality of our shared spaces. Our team brainstormed and implemented solutions to real concerns raised within our community.",
+      impact: "The streets looked cleaner, and water could flow better, reducing the risk of floods. The activity helped raise awareness about the importance of keeping our surroundings clean and showed how small efforts can make a big difference; water could flow better, reducing the risk of floods. The activity helped raise awareness about the importance of keeping our surroundings clean and showed how small efforts can make a big difference.",
       solution: "Our team took action in our local community by organizing a street cleaning activity. Our main goal was to make the streets cleaner and safer. We picked up plastic bottles and other litter, and we also cleared out clogged water drainage paths to prevent flooding and waterborne diseases. It was a hands-on way to show care for our environment and encourage others to take responsibility too.",
       image: week3,
       video: "https://youtu.be/rOorv0lkySk?si=GiApItMWCwzFaPXV"
