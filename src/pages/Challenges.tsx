@@ -35,7 +35,7 @@ const Challenges = () => {
       title: "WEEK THREE ",
       description: "For this week’s challenge, our focus shifted to community impact. The task: launch a 'Help Lab' — a dedicated initiative to foster positive engagement and improve the quality of our shared spaces, both online and offline. Our team brainstormed and implemented solutions to real concerns raised within our community.",
       impact: "Communities thrive when members feel seen, heard, and supported. Without intentional effort, however, gaps in communication, accessibility, or accountability can lead to disconnection or stagnation. Our Help Lab challenge aimed to reverse that trend through proactive listening and collaborative problem-solving.",
-      solution: "We engaged with peers to identify pain points, then designed practical, empathetic interventions — ranging from improved onboarding experiences to mental health check-ins, skill-sharing sessions, and more. The Help Lab isn’t just a project; it’s a mindset shift toward everyday inclusion and collective growth.",
+      solution: "Our team took action in our local community by organizing a street cleaning activity. Our main goal was to make the streets cleaner and safer. We picked up plastic bottles and other litter, and we also cleared out clogged water drainage paths to prevent flooding and waterborne diseases. It was a hands-on way to show care for our environment and encourage others to take responsibility too.",
       image: week3,
       video: "https://youtu.be/rOorv0lkySk?si=GiApItMWCwzFaPXV"
     }
