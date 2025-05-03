@@ -26,7 +26,7 @@ const Challenges = () => {
       impact: "Cultural practices like Dipo are often misunderstood or misrepresented, especially outside their native context. These misperceptions can lead to stigma, cultural erosion, or loss of heritage — particularly among younger generations and diaspora communities.",
 
       solution: "Through research, interviews, and creative presentation, we documented the origins, values, and evolution of the Dipo rite. Our aim was to celebrate African heritage by fostering understanding and respect for traditional practices while creating content that educates and preserves these stories for the future.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      image: "https://images.unsplash.com/photo-1612257998531-70e0d0a15f6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJlYXN1cmUlMjBodW50fGVufDB8fDB8fHww",
       video: "https://youtu.be/AWnmRJBp9gY?si=ax_kheoaOezOXFAP"
 
     },
