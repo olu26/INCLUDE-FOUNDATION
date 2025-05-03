@@ -6,21 +6,22 @@ import { SectionHeading } from '@/components/SectionHeading';
 import pod from '/pod.jpeg';
 import week4 from '/week4.jpeg';
 import week3 from '/week3.jpeg';
+import week1 from '/week1.jpeg';
 const Challenges = () => {
   const challenges = [
     {
       "id": 1,
-      title: "WEEK ONE CHALLENGE",
+      title: "WEEK ONE",
       description: "This week, our challenge was to create a powerful elevator pitch — a short, compelling video introduction from each team member that highlights who we are and why our work matters. We focused on the urgent issue faced by deaf and blind individuals, particularly in rural and underserved communities, who lack access to essential assistive technologies for learning and communication.",
       impact: "Millions of deaf and blind students face significant barriers in accessing education due to the absence of tools like screen readers, braille devices, and hearing aids. This exclusion leads to lower literacy levels, limited opportunities, and reduced independence — perpetuating cycles of poverty and inequality.",
       solution: "In our elevator pitch video compilation, each team member shares our collective vision through the lens of our solution: the LearnPod device. We also spotlight other tools provided by the INCLUDE Foundation, including free or low-cost screen readers, braille displays, hearing aids, and accessible communication apps — all aimed at empowering every learner, regardless of ability.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      image: week1,
       video: "https://youtu.be/j7w_88tvwF8?si=hyPJtYYXDt14XsDt"
     }
     ,
     {
       id: 2,
-      title: "WEEK TWO CHALLENGE",
+      title: "WEEK TWO ",
       description:  "This week's challenge focused on cultural exploration and storytelling. Our team delved into the traditional rite of passage known as Dipo — a revered initiation ceremony practiced among the Krobo people of Ghana. We set out to uncover not just the amazing facts about Dipo, but also to challenge common misconceptions and present a more informed, respectful narrative.",
       impact: "Cultural practices like Dipo are often misunderstood or misrepresented, especially outside their native context. These misperceptions can lead to stigma, cultural erosion, or loss of heritage — particularly among younger generations and diaspora communities.",
 
@@ -31,7 +32,7 @@ const Challenges = () => {
     },
     {
       id: 3,
-      title: "WEEK THREE CHALLENGE",
+      title: "WEEK THREE ",
       description: "For this week’s challenge, our focus shifted to community impact. The task: launch a 'Help Lab' — a dedicated initiative to foster positive engagement and improve the quality of our shared spaces, both online and offline. Our team brainstormed and implemented solutions to real concerns raised within our community.",
       impact: "Communities thrive when members feel seen, heard, and supported. Without intentional effort, however, gaps in communication, accessibility, or accountability can lead to disconnection or stagnation. Our Help Lab challenge aimed to reverse that trend through proactive listening and collaborative problem-solving.",
       solution: "We engaged with peers to identify pain points, then designed practical, empathetic interventions — ranging from improved onboarding experiences to mental health check-ins, skill-sharing sessions, and more. The Help Lab isn’t just a project; it’s a mindset shift toward everyday inclusion and collective growth.",
@@ -41,7 +42,7 @@ const Challenges = () => {
     ,
     {
       id: 4,
-      title: "WEEK FOUR CHALLENGE",
+      title: "WEEK FOUR ",
       "description": "In this challenge, we went on a ‘Hunt for Treasure’ — not gold or gems, but powerful stories. Our journey led us to the Cape Coast School for the DeafBlind, where we had the honor of interviewing the school’s leader. Through this conversation, we uncovered deep insights into the realities, hopes, and resilience of an often-overlooked community.",
       impact: "Leaders in specialized education play a vital role in shaping inclusive futures, yet their voices are rarely amplified. By sharing their perspectives, we bring visibility to the systemic challenges and remarkable triumphs happening at the intersection of disability and education in Ghana.",
       solution: "We documented the interview to spotlight the school’s achievements, highlight areas of need, and inspire others to support inclusive education. The challenge reminded us that true treasure lies in lived experiences — and the knowledge that can only come from those at the heart of the mission.",
@@ -51,7 +52,7 @@ const Challenges = () => {
     ,
     {
       id: 5,
-      title: "WEEK FIVE CHALLENGE",
+      title: "WEEK FIVE ",
       description: "This week marked a turning point: after weeks of research, collaboration, and testing, we officially launched our solution. Centered on the challenges faced by deaf and blind students, our solution integrates the LearnPod device with a suite of assistive technologies designed to enhance learning, communication, and inclusion.",
       impact: "The launch isn't just about shipping a product — it's about creating access. For the first time, students in our pilot schools are experiencing learning environments that are built with their needs in mind. This step forward promises long-term educational and social impact.",
       solution: "Our final product includes the LearnPod — a user-friendly, portable learning device — alongside a curated toolkit of accessible software and hardware: from braille displays to speech-to-text apps. The solution was co-created with users, tested in real environments, and refined based on feedback. Our launch is a declaration: inclusive education is not optional, it's essential.",
@@ -65,14 +66,15 @@ const Challenges = () => {
     <Layout>
       <Hero 
         title="E-LAB Challenges" 
-        subtitle="Understanding the barriers to education and employment for deaf and blind individuals"
+        subtitle="
+Over 5 weeks, we explored key problems faced by the deaf and blind, from exclusion to lack of access. We brainstormed, tested ideas, and built practical tech solutions strengthening our commitment to inclusion each step of the way."
         imageUrl="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
       />
 
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <SectionHeading
-            title="The Five Major Challenges"
+            title="Our Elab Journey "
             subtitle="At the INCLUDE Foundation, we've identified five critical challenges that prevent deaf and blind individuals from accessing quality education and employment opportunities."
             center
           />
