@@ -77,7 +77,7 @@ const Index = () => {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <SectionHeading 
-            title="Explore the five major challenges we're addressing to improve access to education and employment for the deaf and blind." 
+            title="Explore the three major challenges we're addressing to improve access to education and employment for the deaf and blind." 
             // subtitle="Explore the five major challenges we're addressing to improve access to education and employment for the deaf and blind."
             center
           />
@@ -102,7 +102,7 @@ const Index = () => {
           
           <div className="mt-12 text-center">
             <Button asChild className="bg-include-blue hover:bg-include-dark">
-              <Link to="/challenges">View All Challenges</Link>
+              <Link to="/challenges">View Our Journey</Link>
             </Button>
           </div>
         </div>
