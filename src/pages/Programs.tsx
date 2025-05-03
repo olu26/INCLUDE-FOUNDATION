@@ -5,6 +5,7 @@ import { Hero } from '@/components/Hero';
 import { SectionHeading } from '@/components/SectionHeading';
 import { Book, Headphones, Users, File, Link } from 'lucide-react';
 import device from "/device.jpeg";
+import school from "/school.jpeg";
 
 const Programs = () => {
   const programs = [
@@ -30,7 +31,7 @@ const Programs = () => {
         "Classroom modifications to improve accessibility",
         "Ongoing support and mentorship for teachers working with disabled students"
       ],
-      image: "https://www.istockphoto.com/photo/young-student-woman-giving-lecture-to-students-at-the-university-gm1453378098-489374716?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2FSchool-Partnerships&utm_medium=affiliate&utm_source=unsplash&utm_term=School+Partnerships%3A%3A%3A"
+      image: school
     },
     {
       icon: <Users className="h-12 w-12" />,
