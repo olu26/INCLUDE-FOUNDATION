@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Home, Info, BookOpen, Layers, Contact, Heart } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import logo from '/logo.png';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,16 +41,24 @@ export function Navbar() {
       )}
     >
       <div className="container px-4 mx-auto flex justify-between items-center">
-        <Link 
-          to="/" 
-          className="flex items-center" 
-          aria-label="INCLUDE Foundation Homepage"
-        >
-          <div className="font-bold text-2xl text-include-yellow">
-            <span className="sr-only">INCLUDE FOUNDATION</span>
-            INCLUDE <span className="text-include-yellow">FOUNDATION</span>
-          </div>
-        </Link>
+      <Link 
+  to="/" 
+  className="flex items-center space-x-2" 
+  aria-label="INCLUDE Foundation Homepage"
+>
+  <img
+    src={logo}
+    alt="INCLUDE Foundation Logo"
+    className="h-10 w-auto"
+  />
+  <span className="text-xl font-bold text-include-yellow">
+    INCLUDE <span className="text-include-blue">FOUNDATION</span>
+  </span>
+</Link>
+
+
+
+
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-1">

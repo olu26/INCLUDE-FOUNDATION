@@ -270,7 +270,7 @@ const Programs = () => {
           
           <div className="text-center mt-12">
             <a 
-              href="/" 
+              href="https://youtube.com/@afrix_gen?si=vzSIFGwpUy-Wd7-m" 
               className="inline-block bg-include-blue hover:bg-include-dark text-white px-6 py-3 rounded-md font-medium transition-colors"
             >
               View All Impact Stories
@@ -294,7 +294,7 @@ const Programs = () => {
               Contact Us
             </a>
             <a 
-              href="#" 
+              href="/contact" 
               className="bg-white border border-include-blue text-include-blue px-6 py-3 rounded-md font-medium hover:bg-include-light transition-colors"
             >
               Donate Now

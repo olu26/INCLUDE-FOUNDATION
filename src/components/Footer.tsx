@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, Youtube } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -13,17 +13,12 @@ export function Footer() {
               Enhancing access to education and employment for the deaf and blind through improved communication tools and technology.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href="#" aria-label="Facebook" className="hover:text-include-yellow transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" aria-label="Twitter" className="hover:text-include-yellow transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" aria-label="Instagram" className="hover:text-include-yellow transition-colors">
+              
+              <a href="https://www.instagram.com/afrix_gen?igsh=eG4zZWRhaW5tdTA1&utm_source=qr" aria-label="Instagram" className="hover:text-include-yellow transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" aria-label="LinkedIn" className="hover:text-include-yellow transition-colors">
-                <Linkedin size={20} />
+              <a href="https://youtube.com/@afrix_gen?si=vzSIFGwpUy-Wd7-m" aria-label="LinkedIn" className="hover:text-include-yellow transition-colors">
+                <Youtube size={20} />
               </a>
             </div>
           </div>

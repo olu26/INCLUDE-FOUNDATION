@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Facebook, Youtube, Instagram, Linkedin } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
 
 // Define interfaces for form data and errors
@@ -165,18 +165,14 @@ const Contact = () => {
               <div className="mt-12">
                 <h3 className="font-semibold text-xl mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
-                  <a href="#" className="h-10 w-10 rounded-full bg-include-blue flex items-center justify-center text-white hover:bg-include-dark transition-colors">
-                    <Facebook size={20} />
+                  
+                  <a href="https://youtube.com/@afrix_gen?si=vzSIFGwpUy-Wd7-m" className="h-10 w-10 rounded-full bg-include-blue flex items-center justify-center text-white hover:bg-include-dark transition-colors">
+                    <Youtube size={20} />
                   </a>
-                  <a href="#" className="h-10 w-10 rounded-full bg-include-blue flex items-center justify-center text-white hover:bg-include-dark transition-colors">
-                    <Twitter size={20} />
-                  </a>
-                  <a href="#" className="h-10 w-10 rounded-full bg-include-blue flex items-center justify-center text-white hover:bg-include-dark transition-colors">
+                  <a href="https://www.instagram.com/afrix_gen?igsh=eG4zZWRhaW5tdTA1&utm_source=qr" className="h-10 w-10 rounded-full bg-include-blue flex items-center justify-center text-white hover:bg-include-dark transition-colors">
                     <Instagram size={20} />
                   </a>
-                  <a href="#" className="h-10 w-10 rounded-full bg-include-blue flex items-center justify-center text-white hover:bg-include-dark transition-colors">
-                    <Linkedin size={20} />
-                  </a>
+                  
                 </div>
               </div>
             </div>
