@@ -74,7 +74,7 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Link to ='./contact'>
+          <Link to ='/contact'>
           <Button className="ml-4 bg-include-blue hover:bg-include-dark text-white">
             <Heart size={16} className="mr-1" />
             Donate
