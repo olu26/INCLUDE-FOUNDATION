@@ -74,10 +74,12 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
+          <Link to ='./contact'>
           <Button className="ml-4 bg-include-blue hover:bg-include-dark text-white">
             <Heart size={16} className="mr-1" />
             Donate
           </Button>
+          </Link>
         </nav>
 
         {/* Mobile Navigation Button */}
@@ -114,10 +116,12 @@ export function Navbar() {
                 {link.name}
               </Link>
             ))}
+            <Link to="/contact">
             <Button className="w-full bg-include-blue hover:bg-include-dark text-white mt-4">
               <Heart size={16} className="mr-1" />
               Donate
             </Button>
+            </Link>
           </div>
         </nav>
       )}
